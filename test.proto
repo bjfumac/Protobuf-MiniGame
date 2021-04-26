@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package pb.base;
+message Test{
+    //type
+    int32 t = 1;
+    //value
+    string v = 2;
+}
+
