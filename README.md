@@ -13,8 +13,5 @@ Protobuf for mini game(Laya,Egret,Cocos)
 ```
 npm install protobufjs -g
 ```
-```
-npm install protobufjs-cli -g
-```
-* 执行build.sh(win系统自行修改成bat文件)
+* 执行build.sh(win系统自行修改成bat文件，可能存在pbjs pbts文件找不到的现象，需要在磁盘搜索然后拷到对应的目录里)
 * 将生成的pb.d.ts（代码提示文件）和pb.js（protobuf逻辑文件）拷贝到项目的对应文件夹即可。
